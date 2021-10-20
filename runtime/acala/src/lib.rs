@@ -1580,7 +1580,6 @@ impl module_idle_scheduler::Config for Runtime {
 // 	type Event = Event;
 // }
 
-#[allow(clippy::large_enum_variant)]
 construct_runtime!(
 	pub enum Runtime where
 		Block = Block,

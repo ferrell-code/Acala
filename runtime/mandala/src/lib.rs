@@ -2038,7 +2038,6 @@ pub type CheckedExtrinsic = generic::CheckedExtrinsic<AccountId, Call, SignedExt
 pub type Executive =
 	frame_executive::Executive<Runtime, Block, frame_system::ChainContext<Runtime>, Runtime, AllPallets, ()>;
 
-#[allow(clippy::large_enum_variant)]
 construct_runtime! {
 	pub enum Runtime where
 		Block = Block,
